@@ -1,18 +1,12 @@
 <template>
   <div id="app">
-    <h1>Home</h1>
-    <div>{{ name }}</div>
-    <button @click="name = '曾侃'">切换</button>
+    <h1>这是 Home 页面</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Home",
-  data: () => ({
-    name: ""
-  }),
-  methods: {}
+  name: "Home"
 };
 </script>
 
