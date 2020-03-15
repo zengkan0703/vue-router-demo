@@ -1,12 +1,15 @@
 import Vue from "vue";
-import Home from "./home.vue";
+import VueRouter from "../router";
+import router from "./router";
+import Main from "./index.vue";
 
+Vue.use(VueRouter, router);
 new Vue({
   el: "#app",
   components: {
-    Home
+    Main
   },
   render(h) {
-    return h(Home)
+    return h(Main)
   }
 })

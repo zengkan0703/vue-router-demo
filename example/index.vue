@@ -1,12 +1,14 @@
 <template>
-  <div class="home">
-    <h1>这是 Home 页面</h1>
+  <div id="app">
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Home"
+  name: "",
+  data: () => ({}),
+  methods: {}
 };
 </script>
 
