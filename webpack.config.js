@@ -19,6 +19,9 @@ module.exports = {
       }
     ]
   },
+  resolve: {
+    extensions: [".js", ".vue"]
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: "./example/index.html"
