@@ -14,6 +14,9 @@ export default {
       return p;
     }, {})
   },
+  mounted() {
+    this.handleHashChange();
+  },
   destroyed() {
     window.removeEventListener("hashchange", this.handleHashChange);
   },
